@@ -1,4 +1,4 @@
-package it.unikey.acadesteam.PL.rest;
+package it.unikey.acadesteam.rest;
 
 import it.unikey.acadesteam.DAL.entity.LibraryEntity;
 import it.unikey.acadesteam.DAL.entity.ReportEntity;

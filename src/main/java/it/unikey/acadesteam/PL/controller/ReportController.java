@@ -4,14 +4,13 @@ import it.unikey.acadesteam.BLL.dto.ReportDto;
 import it.unikey.acadesteam.BLL.exception.NotFoundException;
 import it.unikey.acadesteam.BLL.service.impl.ReportService;
 import it.unikey.acadesteam.PL.mapper.ReportRestMapper;
-import it.unikey.acadesteam.PL.rest.ReportRest;
+import it.unikey.acadesteam.rest.ReportRest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.UUID;
 import java.util.stream.Collectors;
 
 @RequiredArgsConstructor

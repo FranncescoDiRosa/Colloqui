@@ -1,4 +1,4 @@
-package it.unikey.acadesteam.PL.rest;
+package it.unikey.acadesteam.rest;
 
 import it.unikey.acadesteam.DAL.entity.GameEntity;
 import it.unikey.acadesteam.DAL.entity.UserInfoEntity;

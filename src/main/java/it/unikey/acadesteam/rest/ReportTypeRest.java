@@ -1,11 +1,9 @@
-package it.unikey.acadesteam.PL.rest;
+package it.unikey.acadesteam.rest;
 
-import it.unikey.acadesteam.BLL.dto.ReportDto;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 import java.util.Set;
-import java.util.UUID;
 
 @Data
 @RequiredArgsConstructor

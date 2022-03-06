@@ -1,15 +1,11 @@
 package it.unikey.acadesteam.PL.controller;
 
 
-import it.unikey.acadesteam.BLL.dto.ReportDto;
 import it.unikey.acadesteam.BLL.dto.ReportTypeDto;
 import it.unikey.acadesteam.BLL.exception.NotFoundException;
-import it.unikey.acadesteam.BLL.service.impl.ReportService;
 import it.unikey.acadesteam.BLL.service.impl.ReportTypeService;
-import it.unikey.acadesteam.PL.mapper.ReportRestMapper;
 import it.unikey.acadesteam.PL.mapper.ReportTypeRestMapper;
-import it.unikey.acadesteam.PL.rest.ReportRest;
-import it.unikey.acadesteam.PL.rest.ReportTypeRest;
+import it.unikey.acadesteam.rest.ReportTypeRest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

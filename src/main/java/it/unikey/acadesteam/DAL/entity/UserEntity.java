@@ -8,7 +8,7 @@ import org.hibernate.Hibernate;
 
 import javax.persistence.*;
 import java.util.Objects;
-
+//ho tolto la relazione many to one verso i ruoli
 @Entity
 @Getter
 @Setter
@@ -32,10 +32,6 @@ public class UserEntity {
 
     @Column(nullable = false, unique = true)
     private String email;
-
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
-    @ToString.Exclude
-    private RolesEntity roles;
 
     @OneToOne(cascade = CascadeType.ALL)
     private UserInfoEntity userInfo;

@@ -1,4 +1,4 @@
-package it.unikey.acadesteam.PL.rest;
+package it.unikey.acadesteam.rest;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

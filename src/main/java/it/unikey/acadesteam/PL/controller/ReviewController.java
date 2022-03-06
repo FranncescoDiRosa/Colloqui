@@ -4,7 +4,7 @@ import it.unikey.acadesteam.BLL.dto.ReviewDto;
 import it.unikey.acadesteam.BLL.exception.NotFoundException;
 import it.unikey.acadesteam.BLL.service.impl.ReviewService;
 import it.unikey.acadesteam.PL.mapper.ReviewRestMapper;
-import it.unikey.acadesteam.PL.rest.ReviewRest;
+import it.unikey.acadesteam.rest.ReviewRest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

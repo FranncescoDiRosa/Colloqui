@@ -1,7 +1,4 @@
-package it.unikey.acadesteam.PL.rest;
-
-import it.unikey.acadesteam.DAL.entity.GameEntity;
-import it.unikey.acadesteam.DAL.entity.UserInfoEntity;
+package it.unikey.acadesteam.rest;
 
 import java.time.LocalDate;
 

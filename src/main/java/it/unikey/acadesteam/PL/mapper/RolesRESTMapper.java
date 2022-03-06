@@ -1,8 +1,7 @@
 package it.unikey.acadesteam.PL.mapper;
 
 import it.unikey.acadesteam.BLL.dto.RolesDto;
-import it.unikey.acadesteam.DAL.entity.RolesEntity;
-import it.unikey.acadesteam.PL.rest.RolesRest;
+import it.unikey.acadesteam.rest.RolesRest;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

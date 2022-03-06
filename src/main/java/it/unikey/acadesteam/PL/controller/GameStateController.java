@@ -4,7 +4,7 @@ import it.unikey.acadesteam.BLL.dto.GameStateDto;
 import it.unikey.acadesteam.BLL.exception.NotFoundException;
 import it.unikey.acadesteam.BLL.service.impl.GameStateServiceImpl;
 import it.unikey.acadesteam.PL.mapper.GameStateRestMapper;
-import it.unikey.acadesteam.PL.rest.GameStateRest;
+import it.unikey.acadesteam.rest.GameStateRest;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

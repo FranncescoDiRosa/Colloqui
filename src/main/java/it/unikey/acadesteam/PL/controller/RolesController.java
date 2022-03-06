@@ -2,10 +2,9 @@ package it.unikey.acadesteam.PL.controller;
 
 import it.unikey.acadesteam.BLL.dto.RolesDto;
 import it.unikey.acadesteam.BLL.exception.NotFoundException;
-import it.unikey.acadesteam.BLL.mapper.RolesMapper;
 import it.unikey.acadesteam.BLL.service.impl.RolesServiceImpl;
 import it.unikey.acadesteam.PL.mapper.RolesRESTMapper;
-import it.unikey.acadesteam.PL.rest.RolesRest;
+import it.unikey.acadesteam.rest.RolesRest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

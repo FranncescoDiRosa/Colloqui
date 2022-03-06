@@ -1,8 +1,5 @@
-package it.unikey.acadesteam.PL.rest;
+package it.unikey.acadesteam.rest;
 
-import it.unikey.acadesteam.BLL.dto.LibraryDto;
-import it.unikey.acadesteam.BLL.dto.ReportDto;
-import it.unikey.acadesteam.DAL.entity.GameStateEntity;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 

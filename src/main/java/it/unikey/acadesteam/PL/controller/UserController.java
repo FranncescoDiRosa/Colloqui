@@ -2,19 +2,15 @@ package it.unikey.acadesteam.PL.controller;
 
 import it.unikey.acadesteam.BLL.dto.UserDto;
 import it.unikey.acadesteam.BLL.exception.NotFoundException;
-import it.unikey.acadesteam.BLL.service.UserService;
 import it.unikey.acadesteam.BLL.service.impl.UserServiceImpl;
 import it.unikey.acadesteam.PL.mapper.UserRestMapper;
-import it.unikey.acadesteam.PL.rest.UserRest;
+import it.unikey.acadesteam.rest.UserRest;
 import lombok.RequiredArgsConstructor;
-import org.apache.catalina.User;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Set;
-import java.util.UUID;
 import java.util.stream.Collectors;
 
 @RestController

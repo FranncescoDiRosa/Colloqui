@@ -5,8 +5,7 @@ import it.unikey.acadesteam.DAL.entity.UserInfoEntity;
 import lombok.Data;
 
 
-
-@Data
+//Ho tolto l'annotation Data
 public class LibraryDto {
     private Integer id;
     private UserInfoDto userInfo;

@@ -4,7 +4,7 @@ import it.unikey.acadesteam.BLL.dto.GameDto;
 import it.unikey.acadesteam.BLL.exception.NotFoundException;
 import it.unikey.acadesteam.BLL.service.impl.GameServiceImpl;
 import it.unikey.acadesteam.PL.mapper.GameRestMapper;
-import it.unikey.acadesteam.PL.rest.GameRest;
+import it.unikey.acadesteam.rest.GameRest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +12,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.UUID;
 import java.util.stream.Collectors;
 
 @Controller
