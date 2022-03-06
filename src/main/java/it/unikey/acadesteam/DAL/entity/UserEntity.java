@@ -8,7 +8,7 @@ import org.hibernate.Hibernate;
 
 import javax.persistence.*;
 import java.util.Objects;
-//ho tolto la relazione many to one verso i ruoli
+
 @Entity
 @Getter
 @Setter
