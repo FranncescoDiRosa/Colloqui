@@ -2,8 +2,10 @@ package it.unikey.acadesteam.BLL.dto;
 
 import lombok.Data;
 
+
 @Data
-public class UserDTO {
+public class UserDto {
+
 private Integer id;
 private String username;
 private String password;

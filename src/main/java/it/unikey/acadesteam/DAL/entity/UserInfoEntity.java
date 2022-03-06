@@ -3,14 +3,11 @@ package it.unikey.acadesteam.DAL.entity;
 
 import lombok.*;
 import org.hibernate.Hibernate;
-import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.Objects;
 import java.util.Set;
-import java.util.UUID;
 
 
 @Getter
@@ -18,7 +15,7 @@ import java.util.UUID;
 @ToString
 @RequiredArgsConstructor
 @Entity
-@Table(name= "USER_INFO")
+@Table(name= "USERS_INFO")
 public class UserInfoEntity {
 
     @Id
@@ -49,7 +46,7 @@ public class UserInfoEntity {
     private Set<ReportEntity> reports;
 
     @OneToOne(mappedBy = "userInfo")
-    private UserEntity users;
+    private UserEntity user;
 
     @Override
     public boolean equals(Object o) {

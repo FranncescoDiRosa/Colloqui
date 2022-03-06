@@ -2,19 +2,16 @@ package it.unikey.acadesteam.DAL.entity;
 
 import lombok.*;
 import org.hibernate.Hibernate;
-import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.util.Objects;
-import java.util.UUID;
 
 @Getter
 @Setter
 @ToString
 @RequiredArgsConstructor
 @Entity
-@Table(name = "LIBRARY")
+@Table(name = "LIBRARIES")
 public class LibraryEntity {
 
     @Id

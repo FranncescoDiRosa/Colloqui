@@ -1,6 +1,10 @@
 package it.unikey.acadesteam.BLL.dto;
 
+import it.unikey.acadesteam.DAL.entity.GameEntity;
+import it.unikey.acadesteam.DAL.entity.UserInfoEntity;
 import lombok.Data;
+
+
 
 @Data
 public class LibraryDto {

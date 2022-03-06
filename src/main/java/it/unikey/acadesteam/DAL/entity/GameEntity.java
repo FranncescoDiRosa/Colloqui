@@ -1,17 +1,17 @@
 package it.unikey.acadesteam.DAL.entity;
 
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
-import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
-import java.util.UUID;
+import java.util.Set;
 
 @Getter
 @Setter
 @Entity
-@Table(name = "GAME")
+@RequiredArgsConstructor
+@Table(name = "GAMES")
 public class GameEntity {
 
     @Id
@@ -27,16 +27,16 @@ public class GameEntity {
     @ManyToOne
     private GameStateEntity gameState;
 
-    @ManyToOne
-    private LibraryEntity library;
-/*
+    @OneToMany(mappedBy = "game", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private Set<LibraryEntity> library;
+
+    @OneToMany(mappedBy = "game", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private Set<ReportEntity> reports;
+
     @ManyToOne
     private UserInfoEntity developer;
 
     @OneToMany(mappedBy = "game", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private Set<ReviewEntity> reviews;
 
-    @OneToMany(mappedBy = "game", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    private Set<ReportEntity> reports;
-    */
 }

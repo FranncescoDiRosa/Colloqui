@@ -2,27 +2,24 @@ package it.unikey.acadesteam.DAL.entity;
 
 import lombok.*;
 import org.hibernate.Hibernate;
-import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.Objects;
-import java.util.UUID;
 
 @Getter
 @Setter
 @ToString
 @RequiredArgsConstructor
 @Entity
-@Table(name = "REPORT")
+@Table(name = "REPORTS")
 public class ReportEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "DATE", nullable = false)
+    @Column(name = "REPORT_DATE", nullable = false)
     private LocalDate reportDate;
 
     @Column(name = "DESCRIPTION", length = 500,  nullable = false)

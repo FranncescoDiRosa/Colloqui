@@ -2,8 +2,11 @@ package it.unikey.acadesteam.BLL.dto;
 
 import lombok.Data;
 
+import java.util.UUID;
+
 @Data
-public class RolesDTO {
+public class RolesDto {
+
     private Integer id;
     private String description;
 
